@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+
+.Main{
+  letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 25px;
+ text-align: center;
+ text-decoration: underline;
+ position: relative;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+
+.cart-item {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 275px;
+}
+
+.cart-item:hover{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cart-item .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cart-item .price {
+  color: #000;
+}
+
+.cart-item .price::before {
+  content: 'price:$';
+  letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+}
+
+
+
+button {
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: white;
+ box-shadow: rgba(4, 3, 3, 0.05) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+ justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+ }
+
+.input {
+  max-width: 190px;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f3f7fe;
+  transition: .3s;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 70.1rem;
+  position: relative;
+}
+
+.input:focus {
+  border: 1px solid #000;
+  box-shadow: 0 0 0 1px #0808085f
+}
+
+
+.price::before{
+  content: '$';
+  color: black;
+}
+
+.cart-nav{
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-price{
+  padding-left: 4rem;
+}
+
+.cart-price::before{
+  content: 'your total Cart Prize: $';
+}
+
+
+
+.horizontal-line {
+  position: relative;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.cart-item.nav{
+  margin-bottom: 1rem;
+  margin-left: 38.5rem;
+}
+
+.cart-price{
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 25px;
+
+}
+
